@@ -13,9 +13,7 @@
 
   <h3 align="center">A 3D Developer Portfolio</h3>
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+   
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -28,21 +26,11 @@
 6. 🔗 [Links](#links)
 7. 🚀 [More](#more)
 
-## 🚨 Tutorial
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
-
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
-
-<a href="https://youtu.be/0fYi8SGA20k?feature=shared" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
 ## <a name="introduction">🤖 Introduction</a>
 
 By developing this project, you will gain hands-on experience in crafting immersive web experiences, mastering 3D libraries, and implementing engaging animations. The combination of creativity and technical skills showcased in this project serves as an excellent learning opportunity for developers seeking to enhance their portfolio and captivate users with cutting-edge web design.
-
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
-
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -152,6 +140,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  tcs,
+  intelligence,
+  sun,
+  payment,
+  intelligence2,
+  rental
 } from "../assets";
 
 export const navLinks = [
@@ -245,63 +239,65 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Developer",
+    company_name: "Tata Consultancy Services",
+    icon: tcs,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "September 2021 -  Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      // "Developing and maintaining web applications using React.js, Next.js, Express.js and other related technologies.",
+      "Developed and maintained reliable web applications with user-friendly interfaces using ReactJS, Next.js, and Tailwind CSS, collaborating with cross-functional teams to meet project requirements",
+      "Managed databases (MySQL, MongoDB) and developed scalable JavaScript applications using Express.js, ensuring data integrity, security, and maintainability.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      // "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+},
+  {
+    title: "Founder and CEO",
+    company_name: "IntElligence Tech Solutions",
+    icon: intelligence,
+    iconBg: "#000000",
+    date: "July 2022 - Present",
+    points: [
+      "As founder and CEO, I lead IntElligence Tech Solutions in creating cutting-edge web applications, staying ahead of industry trends.",
+      "I oversee the entire development process, ensuring top-quality code and seamless, responsive applications using the latest technologies.",
+      "I translate client needs into robust, user-friendly applications, delivering custom solutions that drive growth and engagement.",
+      "Under my leadership, we've launched numerous high-impact web applications, improving efficiency and generating significant ROI for clients.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Developer Intern",
+    company_name: "Sun Mobility",
+    icon: sun,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "March 2021 - August 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with a team to create and maintain web applications, gaining hands-on experience in HTML5, CSS3, and JavaScript.",
+      "Assisted in designing and developing user interfaces with React.JS, creating interactive and responsive web experiences.",
+      "Contributed to web application development and maintenance, improving performance through active participation in codebase enhancements and troubleshooting.",
+      "Gained exposure to frameworks like Bootstrap by helping create visually appealing and user-friendly web interfaces.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Jaser proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -309,7 +305,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Jaser does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -317,7 +313,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Jaser optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -327,13 +323,18 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Payment App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      // "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A full-featured web application developed using the MERN stack, designed to simulate the functionality of PayTM. This app supports user registration, authentication, and secure banking transactions. Built with modern tools and technologies such as React with Vite, Tailwind CSS for styling.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "pink-text-gradient",
       },
       {
         name: "mongodb",
@@ -344,41 +345,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: payment,
+    source_code_link: "https://github.com/syedahmedullah14/PayTM-Project",
   },
   {
-    name: "Job IT",
+    name: "Company Portfolio",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Built a responsive portfolio using ReactJS, leveraging components and state management for a seamless user experience across devices. Developed a feature for dynamic theme changes, enhancing user engagement by allowing personalization of background and foreground colors through efficient state management.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "bootsrap5",
         color: "green-text-gradient",
       },
       {
@@ -386,8 +366,33 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: intelligence2,
+    source_code_link: "https://int-elligence.co.uk/",
+  },
+  {
+    name: "Rental Management System",
+    description:
+      "Developed a robust system for a construction equipment company to manage customer records, including transaction history, products, suppliers, and rental records, ensuring secure and efficient data storage and retrieval. Integrated a billing and invoicing system, allowing for accurate and streamlined financial transactions.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "aws",
+        color: "green-text-gradient",
+      },
+    ],
+    image: rental,
+    source_code_link: "https://github.com/syedahmedullah14",
   },
 ];
 
@@ -765,25 +770,8 @@ module.exports = {
 
 Models and Assets used in the project can be found [here](https://drive.google.com/drive/folders/1KVU8iaH0E_JFtShNiR3BgCSA3pawXY4Z)
 
-## <a name="more">🚀 More</a>
-
-**Advance your skills with Next.js 14 Pro Course**
-
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://jsmastery.pro/next14" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/557837ce-f612-4530-ab24-189e75133c71" alt="Project Banner">
-</a>
-
 <br />
 <br />
 
-**Accelerate your professional journey with Expert Training program**
-
-And if you're hungry for more than just a course and want to understand how we learn and tackle tech challenges, hop into our personalized masterclass. We cover best practices, different web skills, and offer mentorship to boost your confidence. Let's learn and grow together!
-
-<a href="https://www.jsmastery.pro/masterclass" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/fed352ad-f27b-400d-9b8f-c7fe628acb84" alt="Project Banner">
-</a>
 
 #
